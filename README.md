@@ -1,7 +1,9 @@
 # super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the official Ember v3.22.0 tutorial: an application called "Super Rentals",
+this will be a website for browsing interesing places to stay during your next vacation.
+
+This project is for educational purposes only.
 
 ## Prerequisites
 
@@ -14,7 +16,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/cesardariogarcia/emberjs-super-rentals.git` this repository
 * `cd super-rentals`
 * `npm install`
 
@@ -46,7 +48,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Please refer to https://guides.emberjs.com/v3.0.0/tutorial/deploying/ 
+for a more detailed description for the deploy target desired.
 
 ## Further Reading / Useful Links
 
