@@ -8,11 +8,19 @@ const COMMUNITY_CATEGORIES = [
 
 export default class IndexRoute extends Route {
     async model() {
+<<<<<<< HEAD
         let response = await fetch(`/api/rentals.json`);
         let { data } = await response.json();
 
         return data.map(model => {
             let { id, attributes } = model;
+=======
+        let response = await fetch('/api/rentals.json');
+        let { data }  = await response.json();
+
+        return data.map(model => {
+            let { attributes } = model;
+>>>>>>> main
             let type;
 
             if (COMMUNITY_CATEGORIES.includes(attributes.category)) {
@@ -21,7 +29,11 @@ export default class IndexRoute extends Route {
                 type = 'Standalone';
             }
 
+<<<<<<< HEAD
             return { id, type, ...attributes };
+=======
+            return { type, ...attributes };
+>>>>>>> main
         });
 
     }

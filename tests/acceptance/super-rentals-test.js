@@ -19,6 +19,7 @@ module('Acceptance | super rentals', function (hooks) {
     assert.equal(currentURL(), "/about");
   });
 
+<<<<<<< HEAD
   test('viewing the details of a rental property', async function(assert) {
     await visit('/');
     assert.dom('.rental').exists({ count: 3 });
@@ -37,6 +38,8 @@ module('Acceptance | super rentals', function (hooks) {
     assert.dom('.rental.detailed').exists();
   });
 
+=======
+>>>>>>> main
   test('visiting /about', async function (assert) {
     await visit('/about');
 
