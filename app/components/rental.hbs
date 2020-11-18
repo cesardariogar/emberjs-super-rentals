@@ -2,15 +2,11 @@
     <Rental::Image src={{@rental.image}} alt="A picture of {{@rental.title}}" />
 
     <div class="details">
-<<<<<<< HEAD
         <h3>
             <LinkTo @route="rental" @model={{@rental}}>
                 {{@rental.title}}
             </LinkTo>
         </h3>
-=======
-        <h3>{{@rental.title}}</h3>
->>>>>>> main
         <div class="detail owner">
             <span>Owner: </span>{{@rental.owner}}
         </div>
@@ -25,7 +21,6 @@
         </div>
     </div>
     <Map 
-<<<<<<< HEAD
         @lat={{@rental.location.lat}} 
         @lng={{@rental.location.lng}} 
         @zoom="9" 
@@ -33,13 +28,5 @@
         @height="150"
         alt="A map of {{@rental.title}}" 
     />
-=======
-    @lat={{@rental.location.lat}}
-    @lng={{@rental.location.lng}}
-    @zoom="9" 
-    @width="150" 
-    @height="150" 
-    alt="A map of {{@rental.title}}" />
->>>>>>> main
 
 </article>
